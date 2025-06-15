@@ -135,4 +135,5 @@ TweenService:Create(bar, TweenInfo.new(0.8), {
 task.wait(0.9)
 
 -- Xoá UI
+_G.LoadingDone = true
 pcall(function() gui:Destroy() end)
